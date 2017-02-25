@@ -1,0 +1,5 @@
+# Bibliotecas do NPM
+node_modules/
+
+# Distribuição
+.nuxt/
