@@ -2,7 +2,7 @@
   "name": "doe-educandario-web",
   "version": "0.5.1",
   "description": "Aplicação Cliente para o sistema Doe Educandario",
-  "main": "index.html",
+  "main": "nuxt.config.js",
   "scripts": {
     "lint": "eslint .",
     "start": "nuxt"
@@ -20,13 +20,19 @@
   ],
   "author": "Mateus Oliveira Carvalho <mateus.oli.car@gmail.com>",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mateus-Oli/doe-educandario-web.git"
+  },
   "dependencies": {
-    "node-sass": "^4.5.0",
+    "axios": "^0.15.3",
     "nuxt": "^0.9.9",
-    "sass-loader": "^6.0.1"
+    "vue-material": "^0.7.1"
   },
   "devDependencies": {
-    "eslint": "^3.15.0",
-    "pre-commit": "^1.2.2"
+    "eslint": "^3.16.1",
+    "node-sass": "^4.5.0",
+    "pre-commit": "^1.2.2",
+    "sass-loader": "^6.0.1"
   }
 }

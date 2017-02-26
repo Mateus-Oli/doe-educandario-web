@@ -1,5 +1,8 @@
 # Bibliotecas do NPM
 node_modules/
 
+# Logs da Aplicação
+*.log
+
 # Distribuição
 .nuxt/
